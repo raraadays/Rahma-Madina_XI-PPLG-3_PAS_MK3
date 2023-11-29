@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- judul halaman website -->
+    <title>EMPATi</title>
+    <!-- menghubungkan file stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- menghubungkan stylesheet dengan responsif -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- icon pada navbar -->
+    <link rel="icon" type="image/png" href="img/E.png"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="fixed-top">
+        <!-- membuat div dengan kelas "fixed-top" yang mungkin digunakan untuk elemen tetap di bagian atas -->
+        <header>
+            <!-- membuka header -->
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <!-- navigasi dengan Bootstrap Navbar -->
+                    <a class="navbar-brand" href="#home">EMPATi</a>
+                    <!--  tautan navbar ke bagian home dengan teks "EMPATi" -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        <!-- tombol toggler untuk navbar responsif -->
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <!--  daftar navbar dengan menggeser ke kanan (ml-auto) -->
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#donation">Donations</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#mission-id">Missions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+    </div>
+    <section class="home-sec" id="home">
+        <!-- membuka bagian untuk home section dengan ID "home" -->
+        <div class="container">
+            <!-- membuat kontainer untuk mengelompokkan konten dan seterusnya untuk menentukan konten di bagian home -->
+            <div class="home-content">
+                <div class="row">
+                    <div class="col-lg-6 align-item-center">
+                        <div class="home-info">
+                            <h1>Sendiri kita bisa melakukan hal kecil, bersama kita bisa melakukan banyak hal!</h1>
+                            <h2>We <span>EMPATizen</span> manage wastage for needy peoples.</h2>
+                            <p style="font-size: 18px;">Semangat penumbuhan rasa peduli moralitas dan kasih.</p>
+                            <!-- penjelasan di bagian home -->
+                            <div class="buttons">
+                                <!-- button untuk donasi -->
+                                <a href="#contact" class="btn1">Donate now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-first order-lg-last">
+                        <div class="img-sec">
+                            <img src="img/img-1.png" alt="home-image">
+                            <!-- gambar pada tampilan home -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="don-sec" id="donation">
+        <!-- membuka bagian untuk donation section dengan ID "donation" -->
+        <div class="container">
+            <div class="heading">
+                <h2>EMPATI memiliki beberapa program kerja donasi...</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="don-box">
+                        <img src="img/don/clothing.png" alt="img">
+                        <h3>BMTS</h3>
+                        <p style="font-size: 14px;">BMTS sendiri adalah bakti masyarakat telkom school, BMTS ini adalah proker sekbid 2 
+                            organisasi OSIS SMK Telkom Purwokerto yaitu PBPL yang dimana disini kita membantu 
+                            desa yang kurang mampu atau kurang membutuhkan, tujuannya untuk menumbuhkan 
+                            sifat sosial kita terhadap sesama.
+                        </p>
+                        <!-- penjelasan proker BMTS -->
+                        <a href="#contact" class="btn1">Donate Now</a>
+                        <!-- diarahkan ke section contact -->
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="don-box">
+                        <img src="img/don/shopping-bag.png" alt="img">
+                        <h3>Panti Asuhan</h3>
+                        <p style="font-size: 14px;">Panti Asuhan adalah salah satu program kerja di sekbid 2 organisasi OSIS SMK Telkom Purwokerto
+                            juga yaitu PBPL yang dimana disini kita membantu panti asuhan yang terbilang masih kurang 
+                            dalam fasilitas maupun bidang lainnya, kegiatan ini dilakukan sebagai pengganti acara BMTS 
+                            apabila acara tersebut tidak bisa dilakukan.
+                        </p>
+                        <!-- penjelasan proker panti -->
+                        <a href="#contact" class="btn1">Donate Now</a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="don-box">
+                        <img src="img/don/salary.png" alt="img">
+                        <h3>Tali Asih</h3>
+                        <p style="font-size: 14px;">Tali Asih juga masuk ke dalam salah satu proker sekbid 2 di OSISTEL, kegiatan ini dilakukan
+                            apabila ada orang tua dari para siswa/siswi SMK Telkom Purwokerto yang meninggal, untuk 
+                            menghargai jadi diadakanlah penerimaan sumbangan seikhlasnya yang nantinya hasil 
+                            sumbangan tersebut diberikan kepada keluarga almarhum/almarhumah.
+                        </p>
+                        <!-- penjelasan proker tali asih -->
+                        <a href="#contact" class="btn1">Donate Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mission" id="mission-id">
+        <div class="container">
+            <div class="heading">
+                <h2>Misi EMPATizen</h2>
+                <p>Kita berhasil mendonasikan <span>dana</span> atau <span>barang</span> untuk orang yang lebih membutuhkan...</p>
+                <!-- guna span untuk membedakan kata/kalimat yang dipilih -->
+            </div>
+            <div class="gallery-sec">
+                <div class="container">
+                    <div class="image-container">
+                        <div class="image"><img src="img/miss/1.jpg" alt="img"></div>
+                        <div class="image"><img src="img/miss/2.jpg" alt="img"></div>
+                        <div class="image"><img src="img/miss/3.jpg" alt="img"></div>
+                        <div class="image"><img src="img/miss/4.jpg" alt="img"></div>
+                        <div class="image"><img src="img/miss/5.jpg" alt="img"></div>
+                        <div class="image"><img src="img/miss/6.jpg" alt="img"></div>
+                    </div>
+                    <!-- gambar yang dimasukkan ada 6 buah -->
+                </div>
+                <div class="pop-image">
+                    <span>&times;</span>
+                    <img src="img/gallery/1.jpg" alt="gallery-img">
+                    <!-- jika diklik langsung zoom in -->
+                </div>
+                </di v>
+            </div>
+    </section>
+
+    <section class="about-sec" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 about-img">
+                    <img src="img/img-2.jpeg" alt="about">
+                </div>
+                <div class="col-lg-8 order-first order-lg-last">
+                    <div class="heading">
+                        <h2>Apa yang kita lakukan dan mengapa kita melakukannya?</h2>
+                    </div>
+                    <p>Berdonasi adalah tindakan yang sangat bermakna karena membawa dampak positif secara langsung pada masyarakat dan lingkungan sekitar. Melalui donasi, kita dapat memberikan bantuan kepada mereka yang membutuhkan, seperti korban bencana alam, kelompok miskin, atau penyintas konflik.</p>
+                    <p>Dukungan finansial ini tidak hanya memberikan akses kepada kebutuhan dasar seperti makanan, air bersih, dan tempat tinggal, tetapi juga meningkatkan kualitas hidup melalui layanan pendidikan, dan perawatan kesehatan. </p>
+                    <!-- penjelasan tentang mengapa harus berdonasi -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <div class="heading">
+                    <h2>Ayo Donasi!</h2>
+                    <p>Isi form ini, tim kami akan mengolah <span>dana</span> atau <span>barang</span> darimu.</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 mt-5">
+                        <form class="contact-form">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="col-lg-12">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" placeholder="Your Name">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" placeholder="Mobile No.">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" placeholder="Email">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <div class="form-group">
+                                                    <select name="donation" id="donation">
+                                                        <option value="">Pilih Donasi</option>
+                                                        <option value="food">BMTS</option>
+                                                        <option value="clothes">Panti Asuhan</option>
+                                                        <option value="footware">Tali Asih</option>
+                                                        <!-- opsi memilih choice proker -->
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Address">
+                                            </div>
+                                            <div class="form-group">
+                                                <textarea class="form-control" name="text" id="" cols="90" rows="1" placeholder="Message"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 mt-3">
+                                            <a href="#" class="btn1 mt-5">Submit Details</a>
+                                            <!-- nantinya saat dikirim akan otomatis terkirim ke email -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <footer>
+        <!-- membuka bagian footer -->
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-4">
+                    <div class="col-one">
+                        <h4>EMPATi</h4>
+                        <p>Alamat : Jl. D.I Panjaitan No. 128 <br>SMK Telkom Purwokerto </p>
+                        <p>Contact Person : <a href="tel: +62 81228384129">+62 81228384129</a></p>
+                        <p>Email : <a href="mailto:txtdrpacardobby@gmail.com">bersamakitaempati@gmail.com</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="col-two">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#donation">Donations</a></li>
+                            <li><a href="#mission-id">Missions</a></li>
+                            <li><a href="#about">About us</a></li>
+                            <li><a href="#contact">Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="col-one">
+                        <h4>Social Media</h4>
+                        <div class="social">
+                            <a href="https://www.facebook.com/osistel"><img src="img/icons/facebook.png" alt="facebook"></a>
+                            <a href="https://www.instagram.com/osis_stematel/"><img src="img/icons/instagram.png" alt="instagram"></a>
+                            <a href="https://www.youtube.com/@stematelpwt"><img src="img/icons/youtube.png" alt="youtube"></a>
+                            <a href="mailto:txtdrpacardobby@gmail.com"><img src="img/icons/gmail.png" alt="gmail"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <!-- menghubungkan file skrip JavaScript eksternal  -->
+</body>
+
+</html>
